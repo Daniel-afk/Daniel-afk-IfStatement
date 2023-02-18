@@ -21,14 +21,12 @@ public class Lab {
      */
     public int ifExample(boolean bool, int x, int y){
         
-        if (bool = true){
-            
-            return x;
-        } 
-        if (bool = false) {
-            
+        if (bool == false){
             return y;
+        } else if (bool = true){
+            return x;
         }
+
         return 0;
     }
 }
